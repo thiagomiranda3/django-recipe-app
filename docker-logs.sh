@@ -1,1 +1,1 @@
-docker logs "${PWD##*/}" -f --tail 200
+docker-compose logs --tail 200
