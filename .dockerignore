@@ -1,15 +1,26 @@
-# Git
-.git
-.gitignore
+**/.git
+**/.gitignore
+**/.vscode
+**/coverage
+**/.aws
+**/.ssh
+**/.DS_Store
+**/env
+**/.env
+**/venv
+**/.venv
+
+Dockerfile
+README.md
+docker-compose.yml
 
 # Docker
 .docker
 
+
 # Python
+**/____pycache__/
 app/____pycache__/
 app/*/____pycache__/
 app/*/*/____pycache__/
 app/*/*/*/____pycache__/
-.env/
-.venv/
-venv/
